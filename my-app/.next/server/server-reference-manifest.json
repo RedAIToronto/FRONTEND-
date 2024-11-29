@@ -1,0 +1,30 @@
+{
+  "node": {
+    "210c1b71c82f9aca5d81fb9f3dc00c7eb4865f58": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cali45%5C%5Cfrontend%5C%5Cmy-app%5C%5Capp%5C%5Cactions%5C%5Crecruits.ts%22%2C%5B%22updateRecruitScore%22%2C%22updateRecruitStatus%22%2C%22getRecruits%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "bf5f9d96baffefa917a6d3c3c75c377053a8c149": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cali45%5C%5Cfrontend%5C%5Cmy-app%5C%5Capp%5C%5Cactions%5C%5Crecruits.ts%22%2C%5B%22updateRecruitScore%22%2C%22updateRecruitStatus%22%2C%22getRecruits%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "eef4599ca4fdd0b5f989216dfccd4340815250b6": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cali45%5C%5Cfrontend%5C%5Cmy-app%5C%5Capp%5C%5Cactions%5C%5Crecruits.ts%22%2C%5B%22updateRecruitScore%22%2C%22updateRecruitStatus%22%2C%22getRecruits%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "rjwxspRcH4jNSi5o0bSMdacwYfNPoZzgGl7U8eW1V7U="
+}

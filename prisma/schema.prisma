@@ -1,0 +1,27 @@
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Recruit {
+  id             String   @id @default(cuid())
+  handle         String   @unique
+  joinDate       DateTime @default(now())
+  status         String   @default("identified")
+  memeScore      Int      @default(0)
+  interactions   Int      @default(0)
+  lastInteraction DateTime @default(now())
+  notes          Json?    @default("[]")
+  achievements   Json?    @default("{\"badges\":[]}")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([handle])
+  @@index([status])
+  @@index([lastInteraction])
+} 
